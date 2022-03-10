@@ -1,5 +1,5 @@
 {
-  "name": "@team-supercharge/nest-amqp",
+  "name": "@henrylau/nest-amqp",
   "version": "3.0.3",
   "description": "AMQP 1.0 module for Nest framework",
   "author": "Supercharge",
@@ -11,10 +11,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/team-supercharge/nest-amqp"
+    "url": "https://github.com/henrylau/nest-amqp"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry":"https://npm.pkg.github.com"
   },
   "main": "dist/index.js",
   "scripts": {
